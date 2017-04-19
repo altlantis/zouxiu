@@ -1,0 +1,81 @@
+
+/*no_product*/
+#no_productBox{width:100%;height:90px;margin-top: 35px;}
+#no_product{height:90px;border:1px solid #ccc;background: #f6f6f6;text-align: center;position: relative;}
+#no_product p{font-weight: bolder;font-size: 14px;height:90px;line-height:90px; }
+#no_product img{padding-right: 60px;position: absolute;top:10px;left:230px;}
+#no_product p a{color:#ff6633;padding:5px; }
+#no_product p a:hover{text-decoration: none;}
+
+
+
+
+/*product_list*/
+#product_listBox{width:100%;height:143px;display: none;margin-top: 20px;}
+#product_list{height:143px;border:1px solid #cccccc;margin-bottom:6px;margin-top:15px; font-size: 12px;}
+#product_list table{border-collapse: collapse;}
+#product_list .title{height:30px;width:953px;background:#e3e3e3; text-align: center;}
+#product_list .title .checkbox{width:92px;}
+#product_list .title .product_name{width:300px;}
+#product_list .title .product_price{width:170px;}
+#product_list .title .product_all{width:120px;}
+#product_list .title .product_num{width:130px;}
+#product_list .title .operation{width:130px;}
+#product_list .products{height:113px;background: #fff4e8;text-align: center;position: relative;}
+#product_list .products .product_xiang dl{width:230px ;height:84px;padding-left: 50px;}
+#product_list .products .product_xiang dt{float: left;}
+#product_list .products .product_xiang dd{float: left;line-height:25px;width:150px;text-align: left;padding-left:10px;}
+#product_list .products .product_xiang dd a{color: black;text-decoration: none;}
+#product_list .products .product_xiang dd a:hover{text-decoration: underline;}
+#product_list .products .price .s1{padding-bottom:5px;color: #a6a6a6;text-decoration: line-through;}
+#product_list .products .price .s3{margin-top:5px;color: white;width:60px;height:12px;background: #e95140;display: inline-block;padding:3px 0 8px 0;cursor: pointer;border: 1px solid white;position: relative;z-index: 8;border-bottom: 0;}
+#product_list .products .price .s3:hover{background:white;border:1px solid #e95140;color:#e95140;border-bottom:0}
+#product_list .products .product_all1{color:#ff6633;font-weight: bolder;}
+#product_list .products .product_num1 input{width:30px;height:15px;border:1px solid #dfdfdf;text-align:center}
+#product_list .products .product_num1 img{cursor: pointer;position: relative;top:2px;}
+#product_list .products .operation1 a{color:#5b5b5b;text-decoration: none;line-height:26px; }
+#product_list .products .operation1 a:hover{color: #ff6633;}
+
+#product_list .cuxiao{width:135px;height: 50px;border:1px solid #e95140;background: white;font-size:12px;color: black; position: absolute;left:606px;top:261px; z-index: 3;display: none;padding-left: 5px;line-height:25px; }
+
+
+
+/*result*/
+#resultBox{width：100%;height:50px;display: none;margin-top: 20px;}
+#result{height: 50px;border:1px solid #ccc;margin-bottom:12px;margin-top: 5px;font-size: 12px;color: #5b5b5b;}
+#result label{height:50px;width:68px;text-align: center;float: left;line-height: 50px;}
+#result ul{width:330px;height:50px;float: left;}
+#result ul li{float: left;text-align: center;line-height: 50px;height:50px;}
+#result ul li:hover{background: #eb7416;}
+#result ul li a:hover{color: white;}
+#result ul li a{text-decoration: none;color: #5b5b5b;padding:20px;}
+#result .choosed{height:50px;line-height: 50px;width:150px;float: left;text-align: center;}
+#result .choosed span{color: #eb7416;padding:0 5px;font-weight: bolder;}
+#result .price_all{height:50px;width:270px;float: left;text-align: center;line-height: 50px;}
+#result .price_all .yunfei{color:#a1a1a1;}
+#result .price_all .price_all1{font-size:15px;color: #ea7515;font-weight: bolder;}
+#result button{width:115px;height:50px;border:0;background: gray;color: white;font-weight: bolder;text-align: center;line-height: 50px;float: right;font-size: 22px;}
+/*background: #eb7416;*/
+/*maybe_interest*/
+#maybe_interestBox{width:100%;height:367px;display: none;margin-top: 20px;}
+#maybe_interest{height:367px;border:1px solid #ccc;margin-top: 9px;}
+#maybe_interest .maybe_title{height:30px;width:943px;background: url(../images/maybe_title.jpg);padding-left:10px;font-size: 12px;font-weight: bolder;line-height: 30px;}
+#maybe_interest .maybes{height:337px;width:953px;}
+#maybe_interest .maybes dl{float: left;height:337px;width: 164px;padding:0 13px;}
+#maybe_interest .maybes dd{font-size: 12px;color: #5b5b5b;line-height: 20px;}
+#maybe_interest .maybes dd a{color: #5b5b5b;text-decoration: none;}
+#maybe_interest .maybes dd a:hover{color:#ff6633;text-decoration: underline;}
+#maybe_interest .maybes dd span{color: #ff6633;font-weight: bolder;}
+
+/*select_product*/
+#select_productBox{width:100%;}
+#select_product{padding:26px 0;}
+#select_product .sp1{font-size: 20px; width:35px;height:28px;line-height: 28px;text-align: center; background:#ff8a19;float: left;display: inline-block;color: white;}
+#select_product .sp2{width:130px;height:28px;line-height: 28px;text-align: center; background:#d6d6d6;float: left;display: inline-block;color:#555555;font-size:13px; font-weight: bolder;}
+#select_product .sp3{font-weight: bolder; width:140px;height:28px;line-height: 28px;font-size: 12px;color: #555;text-align: center;float: left;display: inline-block;}
+
+
+
+
+
+

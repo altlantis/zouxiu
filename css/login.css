@@ -1,0 +1,90 @@
+html,body,div,img,form,p,span,h1,h2,h3,h4,h5,h6,ul,li,dl,dd,dt,ol{margin:0;padding: 0;}
+li{list-style: none}
+img{border:0;}
+
+
+/*L_header*/
+#L_headerBox{width:100%;height:60px;}
+#L_header{height:60px;width:1280px;border-bottom: 1px solid #e5e5e5;margin: 0 auto;}
+#L_header img{padding-left: 40px;padding-top: 14px;}
+
+/*login_container*/
+#login_containerBox{width:100%;height:700px;}
+#login_container{position:relative;width:1280px;height:700px;background:#f7f2ec url(../images/login_bg.jpg) no-repeat center center;}
+#login{width:424px;height:560px;position: absolute;top:70px;right:70px;border:1px solid #ccc;background: white;}
+#login ul{height:50px;width:424px;background: #f7f7f9;font-size: 16px;color:#afafaf; }
+#login ul li{float: left;line-height: 50px;text-align: center;width:212px;height:50px;cursor: pointer;}
+#login ul .login_curr{color:#464646;border-bottom:2px solid #464646;}
+#login ul li:hover{color:#464646;border-bottom:2px solid #464646;}
+
+#login #message_login{width:304px;height:367px;padding:27px 60px;background: white;}
+#login #message_login .login_num1{position: relative;height:37px;width:304px;float: left;margin-bottom: 20px;}
+#login #message_login .login_num2{position: relative;height:37px;width:185px;float: left;margin-bottom: 20px;margin-right:13px;}
+#login #message_login .login_num3{position: relative;height:37px;width:128px;float: left;margin-bottom: 20px;margin-right:13px;}
+#login #message_login #phone_num{width:304px;height:37px;border:1px solid #d8d8d8;margin-bottom: 20px;float: left;}
+#login #message_login .phone_num1{width:53px ;height:16px;position: absolute;background: white;color: #afafaf;font-size: 12px;top:10px;left:20px;}
+#login #message_login #message_num{width:185px;height:37px;border:1px solid #d8d8d8;margin-bottom: 20px;margin-right:13px;float: left; }
+#login #message_login .message_num1{width:64px ;height:16px;position: absolute;background: white;color: #afafaf;font-size: 12px;top:10px;left:20px;}
+#login #message_login .warn{font-size: 12px;color: red;float: left;display: none;}
+#login #message_login .warn img{padding:0 5px;}
+#login #message_login .register{height:100px;width:304px;float: left;font-size: 12px;color: #afafaf;display: none;}
+#login #message_login .register p{font-size:11px;color: #afafaf;}
+#login #message_login .register span{color:#005ba1;cursor: pointer;}
+#login #message_login .register img{padding:0 5px;}
+#login #message_login .register a{text-decoration: none;color:#005ba1}
+#login #message_login .register input{width:127px;height:37px;border:1px solid #d8d8d8;margin-bottom: 20px;}
+#login #message_login .register .yan_num1{width:40px ;height:16px;position: absolute;background: white;color: #afafaf;font-size: 12px;top:10px;left:20px;}
+
+#login #message_login .login_pass1{position: relative;height:37px;width:304px;float: left;margin-bottom: 20px;display: none;}
+#login #message_login #user_id,#user_password{width:304px;height:37px;border:1px solid #d8d8d8;margin-bottom: 20px;float: left;}
+#login #message_login .warn_pass{display: none;}
+#login #message_login .login_pass11{width:115px ;height:16px;position: absolute;background: white;color: #afafaf;font-size: 12px;top:10px;left:20px;}
+#login #message_login .login_pass21{width:30px ;height:16px;position: absolute;background: white;color: #afafaf;font-size: 12px;top:10px;left:20px;}
+
+
+
+#login #message_login .get_num{width:100px;height:41px;border:1px solid #d8d8d8;color:black;background: white;float: left;margin-bottom: 20px;cursor: pointer;font-size: 12px;text-align: center;line-height: 41px;}
+#login .hold{float: left;background: url(../images/checkbox2.jpg) no-repeat 0 center;font-size:12px;margin-bottom: 20px;padding-left: 20px;cursor: pointer;}
+#login .find a{font-size: 12px;float: right;margin-bottom: 20px;color: #464646;text-decoration: none;}
+#login .find a:hover{text-decoration: underline;}
+#login .zhu{display: none;}
+#login .zhu a{margin:0 3px;}
+#login .login_on{height:40px;line-height:40px;width:306px;float: left;border-radius: 20px;background: #d2041f;color: white;text-align: center;margin-bottom:28px;border:0;cursor: pointer;}
+#login p{font-size: 12px;color:#3e3e3e;margin:0 auto;float: left; padding-bottom: 20px;}
+#login .login_link{margin:0 auto;float: left;}
+#login .login_link img{margin:0 13px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+#footerBox{width:100%;height:80px;}
+#footer{width:1280px;height:80px;padding-top: 30px;}
+#footer ul{width:563px;height:12px;margin:0 auto;}
+#footer li{float: left;line-height: 12px;}
+#footer li a{text-decoration: none;color: black;font-size: 12px;padding: 0 10px;border-right: 1px solid #e0cce0;}
+#footer li a:hover{color:#feb300;}
+#footer .last{border:0;}
+#footer p{text-align: center;font-size: 12px;color:#999999;margin-top: 22px;}
+#footer p a{text-decoration: none;color:#999999;font-weight: bolder;}
+#footer p a:hover{color:#ffb300;}

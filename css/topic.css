@@ -1,0 +1,8 @@
+#contenBox{width:100%;padding-bottom: 20px;overflow: hidden;}
+#content{width:1200px;margin:0 auto;margin-bottom: 50px;padding-bottom: 50px;position: relative;overflow: hidden;}
+#content a div{text-align: center;}
+#content span{width:0;height: 300px;vertical-align: middle;display: inline-block;}
+#content img{width:370px;height:90px;vertical-align: middle;}
+#more{width:130px;height:30px;text-align: center;background:black;opacity: 0.9;position: absolute;bottom:0;left: 0;right:0;margin: 0 auto;}
+#more a{height:30px;line-height: 30px;text-decoration: none;color: white;font-weight: bolder;}
+hr{width:1200px;color:black;position: absolute;bottom:6px;z-index: -1;}
