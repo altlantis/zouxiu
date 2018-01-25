@@ -1,6 +1,7 @@
 
 $(function(){
 
+	window.log = window.console.log;
 	//登录框的得失焦效果
 	function fo(element1,element2){
 		$(element1).focus(function(){
